@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="app.css">
+  <title>Math Generator</title>
+</head>
+<body>
+  <div class="container">
+    <div class="options">
+      <div class="option">
+        <select class="grade-level" id="grade-level" name="level">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </div>
+      <div class="option">
+        <select class="type" id="type" name="type">
+          <option value="+">Addition</option>
+          <option value="-">Subtraction</option>
+          <option value="x">Multiplication</option>
+          <option value="/">Division</option>
+        </select>
+      </div>
+      <div class="option ">
+        <label>Number of Questions</label>
+        <input type="number" class="quantity" id="quantity" name="quantity" min="10" max="100" step="5" value="10"></input>
+      </div>
+    </div>
+    <div class="questions" id="questions">
+
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
